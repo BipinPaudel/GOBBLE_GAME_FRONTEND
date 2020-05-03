@@ -3,10 +3,10 @@
 - The following project is implemented using React JS.
 
 ## Demo of the application
-```https://www.youtube.com```
+```https://youtu.be/db_f2KOYXx4```
 
 ## Backend implementation of the project
-```https://```
+```https://github.com/BipinPaudel/GOBBLE_GAME_BACKEND```
 
 ## Available Scripts
 
