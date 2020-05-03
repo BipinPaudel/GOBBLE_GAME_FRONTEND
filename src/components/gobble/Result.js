@@ -27,7 +27,10 @@ const Result = (props) => {
                 <ul>
                 {Object.keys(wordMap).map((e, i) =>
                     <li style={{marginTop:'20px',textAlign:'center'} } key={e}>
-                        <Tag  color={wordMap[e] ? '#87d068' : '#f50'}>  {e} </Tag> </li>
+                        <Tag  color={wordMap[e] ? '#87d068' : '#f50'}>
+                            { wordMap[e] ? e+' : '+e.length : e}
+                        </Tag>
+                    </li>
                 )}
                 </ul>
             </Col>
