@@ -78,7 +78,6 @@ const Game = (props) => {
             </div>
 
             <div>
-                {/*    input words goes here */}
                 <h2>The words will be displayed here.</h2>
                 <div className={'word-display'}>
                     <ul>
